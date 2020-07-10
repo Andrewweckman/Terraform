@@ -100,3 +100,4 @@ resource "aws_elb_attachment" "web_1" {
   elb      = aws_elb.web.id
   instance = aws_instance.web_server_2.id
 }
+
